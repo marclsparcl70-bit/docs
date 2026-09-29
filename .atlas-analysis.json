@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Music Events",
+  "projectDescription": "A platform for discovering, creating, and managing live music events.",
   "theme": "almond",
-  "name": "Music Events",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -16,7 +14,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "index",
+              "introduction",
               "browse-events",
               "create-account"
             ]
@@ -49,23 +47,13 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@musicevents.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Find Events",
-      "href": "https://musicevents.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/musicevents",
-      "instagram": "https://instagram.com/musicevents"
-    }
-  }
+  "keyFeatures": [
+    "Browse and discover live music events by genre, location, and date",
+    "Create and publish your own music events with ticketing",
+    "RSVP and purchase tickets for upcoming shows",
+    "Manage event details, capacity, and guest lists",
+    "Promote events via social sharing and featured listings",
+    "Personalized notifications for followed artists and venues"
+  ],
+  "publicApiSurface": []
 }
